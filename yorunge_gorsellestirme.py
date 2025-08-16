@@ -1,8 +1,10 @@
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from scipy.optimize import fsolve
 import datetime
+matplotlib.use('TkAgg')
 
 # Gezegenlerin yörünge parametreleri (yarı büyük eksen a, eksantriklik e)
 gezegenler = {
